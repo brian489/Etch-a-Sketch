@@ -1,0 +1,71 @@
+:root {
+    --size: 1px;
+}
+
+body {
+    background-color: #f4f1de;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height:100vh;
+    margin: 0
+}
+
+#content-container {
+    background-color: #e07a5f;
+    border-radius: 40px;
+    height: 900px;
+    width: 800px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    justify-content: space-between;
+}
+
+#canvas {
+    background-color: #3d405b;
+    display: flex;
+    /* justify-content: space-evenly; */
+    flex-direction: row;
+    height: 700px;
+    width: 700px;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 0px;
+}
+
+.square {
+    outline: 1px solid whitesmoke;
+    width: var(--size);
+    height: var(--size);  
+    padding: 0px;
+    margin: 0px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;  
+}
+
+button {
+    background-color: #4a4e69;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: #f2cc8f;
+    font-size: 27px;
+    width: 300px;
+    height: 50px;
+    border: none;
+}
+button:hover {
+    background-color: #5d6181; /* change to your desired color */
+    color: white; /* change to your desired color */
+  }
+
+.coloured {
+    background-color: white;
+}
